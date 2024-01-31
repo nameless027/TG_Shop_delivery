@@ -37,6 +37,7 @@ namespace TG_Shop_delivery
             Console.WriteLine($"{DateTime.Now} || {me.Username} || Начало работы");
 
             await Task.Delay(-1);
+
         }
 
         private static async Task UpdateHandler(ITelegramBotClient client, Telegram.Bot.Types.Update update, CancellationToken token)
